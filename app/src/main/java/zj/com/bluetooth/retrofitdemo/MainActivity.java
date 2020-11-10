@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyRetrofit myRetrofit=new MyRetrofit();
+        MyRetrofit myRetrofit = MyRetrofit.getInstance();
         /**
          * 替换成自己的github账号；
          */
